@@ -1,0 +1,82 @@
+Name : Omer Enbar.
+Class : Tet3. ( 9th grade. class 3 )
+Project Name : Tetris.
+
+Tetris Version 0.8
+
+        This tetris was made for a project for school in the 9th grade.
+It is now unfinished, it has all the nessecery things to work but it doesn't
+have some add ons. Its menu isn't finished, You can toggle your options just
+from the command line and it is not the most exciting thing you have seen
+:( .
+
+        This tetris is copyrighted to Omer Enbar (Ish-Hurwitz). But you can
+take everything you want from my source, but i don't recommand it because it's
+messed up and unoptimized.
+
+Disclaimer -  I take no responsabilty for the things the Game will do to your
+computer. Though, it cannot harm it in anyway.
+
+Some Technical Stuff
+--------------------
+
+        The basic of this tetris was made in two days of work, Then i added
+some things, like the background, the scores, the fonts, the intro, highscores,
+menu, and so on. The intro and the game are separeted because of a memory
+problem that occurs because a use of fonts that i've downloaded from the
+internet.
+
+        If you want to change the options in the game, you should type:
+
+SetOpt.exe Switch1 Switch2 Switch3 Switch4 Switch5
+
+The switches are -
+
+Switch1   0 - Just Regular Shapes.
+          1 - Deluxe with Regular. Ratio 3:1
+          2 - Crazy with Deluxe with Regular. Ration 6:3:1
+          3 - Just Deluxe.
+          4 - Crazy with Regular. Ratio 1:6
+          5 - Crazy with Deluxe. Ratio 1:3
+          6 - Everything and Challanging. Ration 1:1:1
+          7 - EveryThing and Hard. Ratio 1:2:3
+          8 - Just Crazy.
+
+Switch2   0 - Next Shape is Not Actived.
+          1 - Next Shape is Actived.
+
+Switch3   0..9 - Holds the starting levels
+
+switch4   0 - Immidiate Down.
+          1 - Not Immidiate Down.
+
+Switch5   0-20 Holds the number of random lines in beggining.
+
+The swithes should not be followed after '-'. They should appear like a
+number. For example: I want to play a game with
+1. Deluxe and Regular. 3:1
+2. Next Shape is Actived.
+3. Starting Level is 6.
+4. Immidiate down.
+5. 4 lines at the beginning.
+I should write the following line:
+  SetOpt.exe 1 1 6 0 4
+  Tetris.exe
+if the options file will be deleted the defualts will be actived.
+
+
+        The source code is all messed up and is unreadable, and It is not
+commented. I wouldn't bring the source if i wouldn't have to get my 100 in
+computers this semester.
+
+        If you want to erase the HighScores, just erase the highscores file:
+'High.scr'
+
+        Credits
+
+Programming - Omer Enbar(Ish-Hurwitz)
+Background Picture - D-Mage. (Was taken from the asmmebly competition)
+Fonts - Remco De Korte.
+
+You can reach me at: oenbar@mail.com
+
